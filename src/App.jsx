@@ -20,7 +20,7 @@ function App() {
         <button onClick={() => setToggle(BUTTON)}>Button</button>
         <button onClick={() => setToggle(LINK)}>Link</button>
       </div>
-      <div className="h-screen flex items-center justify-center bg-gray-200 ">
+      <div className="h-screen w-screen fixed flex items-center justify-center bg-gray-200 ">
         {toggle === CHAT && <ChitChat />}
         {toggle === HOVER && <Hover />}
         {toggle === BUTTON && <Button />}
